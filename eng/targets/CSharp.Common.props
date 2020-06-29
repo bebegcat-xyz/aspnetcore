@@ -25,7 +25,7 @@
       IsImplicitlyDefined="true"
       ReferenceOutputAssembly="false"
       SkipGetTargetFrameworkProperties="true"
-      UndefineProperties="TargetFramework;TargetFrameworks" />
+      UndefineProperties="TargetFramework;TargetFrameworks;RuntimeIdentifier" />
   </ItemGroup>
 
   <ImportGroup Condition="'$(UsingMicrosoftNETSdkWeb)' == 'true' OR '$(RazorSdkCurrentVersionProps)' != ''">
